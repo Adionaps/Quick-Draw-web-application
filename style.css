@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(#e66465, #9198e5);;
+}
+
+h1{
+    background-color: whitesmoke;
+    color: red;
+}
+
+#Show_Sketch{
+   float: right; 
+}
+
+p{
+    padding-top: 10px; 
+font-size: 25px;
+}
+
+canvas{
+    border: 5px solid black;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{ 
+  from{
+    box-shadow: 2px 2px 38px grey;
+  }
+  to{
+    box-shadow: 2px 2px 38px white;
+  }
+}
+
+#score{
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+#time{
+    font-size: 35px;
+    margin-right: 20px;
+    float: right;
+}
